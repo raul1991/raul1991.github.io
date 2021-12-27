@@ -6,5 +6,6 @@
 node_modules
 
 # this contains the built website
-docs/
+docs/*
+!docs/.gitkeep
 _site
