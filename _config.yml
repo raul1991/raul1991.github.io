@@ -1,0 +1,29 @@
+title: cafebabe1991
+email: hi.rahulbawa@gmail.com
+description: This is my personal website to talk about the stuff I do.
+author: Rahul Bawa
+baseurl: "/startbootstrap-clean-blog-jekyll"
+url: "https://startbootstrap.github.io"
+
+# Social Profiles
+twitter_username: "0xcafebabe1991"
+github_username: raul1991
+# facebook_username:  StartBootstrap
+# instagram_username:
+linkedin_username: rahul-bawa-89842063
+
+# emailjs settings
+emailjs_service_id: "service_6mxc473"
+emailjs_template_id: "template_kreq7ma"
+emailjs_user_id: "user_RLG3vYm6OchjNekNcav0S"
+# Add your google-analytics ID here to activate google analytics
+google_analytics: G-5KLQJZRNZX # out your google-analytics code
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site

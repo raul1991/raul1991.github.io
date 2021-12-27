@@ -1,0 +1,55 @@
+---
+layout: post
+title: "Jekyll rocks"
+subtitle: "An easy way to bootstrap your personal website"
+date: 2021-12-27 00:45:13
+background: "/img/posts/01.jpg"
+---
+
+<p>
+  I have always wanted to have a beautiful looking website for my portfolio.
+  Call it peer pressure or just a desperate desire to have one for no reason.
+  However, I've never really accomplished that majorly because I have zero
+  design sense and majorly because I couldn't really find any good looking free
+  html templates. My older website had a resume like format and here is how it
+  looked before.
+  <img
+    class="img-fluid"
+    src="{{site.baseurl}}/img/posts/bg-old-website.png"
+    alt="Older website"
+  />
+  <span class="caption text-muted">Old website layout</span>
+</p>
+
+<h2 class="section-heading">Jekyll - My saviour</h2>
+
+<p>
+  Jekyll is a tool to bootstrap decent looking websites built with the help of
+  some configuration files and templates. Its like someone took care of the
+  website layout and the styles for it and has given you some configurations to
+  tweak your details. For someone who is completely oblivious to the colour
+  schemes and palettes this tool is your saviour.
+</p>
+
+<h2 class="section-heading">Anatomy of a jekyll</h2>
+<img
+  class="img-fluid"
+  src="{{site.baseurl}}/img/posts/file-system.png"
+  alt="Older website"
+/>
+<span class="caption text-muted">Anatomy of jekyll project structure</span>
+<p>
+  <ul>
+    <li><i>_posts</i> - This is where all the blogs will live</li>
+    <li><i>Gemfile</i> - Jekylly uses bundle for manage plugins and this gemfile is basically has all the required plugins mentioned in it. <br/>You can run 
+      <code>bundle install</code> to install them.
+    </li>
+    <li><i>assets</i> - All resources required by this website exist here.</li>
+    <li><i>node_modules and _site</i> - These are build specific folders and would disappear in every build. <br/>To create a build for this project, run the following command <br/><code>bundle exec jekyll build</code></li>
+    <li><i>_config.yml</i>This is a configuration file which contains site global variables like your name, description and social badges.</li>
+  </ul>
+</p>
+<p>
+  In case you want to look at the source for this website. Take a look
+  <a href="https://github.com/raul1991/raul1991.github.io">here</a>
+</p>
