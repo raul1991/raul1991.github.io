@@ -1,4 +1,10 @@
-node_modules
+# hidden config files
 .idea/**
-_site
 .jekyll-cache/
+
+# node dependencies
+node_modules
+
+# this contains the built website
+docs/
+_site
