@@ -2,7 +2,7 @@ title: cafebabe1991
 email: hi.rahulbawa@gmail.com
 description: This is my personal website to talk about the stuff I do.
 author: Rahul Bawa
-baseurl: "/raul1991.github.io"
+baseurl: ""
 url: "https://raul1991.github.io"
 destination: ./docs
 # Social Profiles
